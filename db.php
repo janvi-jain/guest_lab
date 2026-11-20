@@ -12,8 +12,8 @@ if($conn)
     echo "Database Connected Successfully!";
 }
 
-if(!$conn) {
-    die("Database Connection Failed: " . mysqli_connect_error());
-}
+// if(!$conn) {
+//     die("Database Connection Failed: " . mysqli_connect_error());
+// }
 
 ?>
